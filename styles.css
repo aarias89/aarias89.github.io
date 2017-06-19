@@ -1,1 +1,73 @@
-body {background: #BCD4C6}
+body {background: #BCD4C6;
+      padding:20px;}
+img {position:relative;
+    height: auto;
+    width: 30%;
+    border:3px inset;
+    margin:auto;
+    display: inline-block;}
+table {padding:30px;
+      border:1px black;}
+h1{font-family: Trebuchet;
+  font-size: 2.5em;
+  margin-top: 0;
+  text-align: center;
+  }
+h2,h3,h4{text-align: center;}
+
+ol {
+  list-style-type:upper-greek;
+  padding: 20px;
+  }
+ul{list-style-type: disc;}
+
+
+p{text-align: center;}
+table#supply_table{position: relative;
+left:25%; }
+
+
+th,td,tr{
+  border:1px solid black;
+  text-align: center;
+  font-size: 1em;
+  margin:10px;
+  padding-right:10px;
+  padding-left: 10px;
+   }
+tr:hover{background-color: #f5f5f5}
+.desired_list>.list{
+  position: relative;
+  text-align: center;
+  background-image:
+  url(images/supplies.jpg);
+  background-size: 100% 100%;
+  color:orange;
+  }
+
+.list{padding-left: 40%;
+      padding-right: 20%;
+       }
+.pre-hike{overflow-y: auto;
+          background-color: #e9e5dc;
+          padding: 10px 20px;
+          border-radius: 25px;
+          margin-bottom: 20px;
+          margin-top: 20px;}
+.hike{overflow-y: auto;
+      background-color: #e9e5dc;
+      padding: 10px 20px;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      height: 200px;
+    }
+a:visited{color: red;}
+a:link{color: blue;}
+a:hover{color:green;}
+
+@media screen and (min-width: 680px) {
+    aside {
+        width: 33%;
+    }
+}
