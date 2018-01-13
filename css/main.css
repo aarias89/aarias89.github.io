@@ -10,6 +10,7 @@ body {
   background-attachment: fixed;
 }
 
+/* Header */
 #header {
   height: 100%;
 }
@@ -52,3 +53,38 @@ body {
   color: white;
 }
 
+/* Navbar */
+
+.navbar {
+  background-color: transparent;
+  border: 0;
+  padding: 10px;
+}
+
+.navbar button {
+  background-color: transparent;
+}
+
+.navbar button:hover {
+  background-color: azure!important;
+}
+
+.navbar-brand {
+  color: black!important;
+  font-size: 1.3em;
+}
+
+.navbar a:not(.navbar-brand){
+  color:black!important;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.navbar a:hover {
+  color: azure!important;
+}
+
+.dropdown-menu a:hover{
+  background-color: transparent;
+  color: azure!important;
+}
