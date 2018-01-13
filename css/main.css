@@ -121,6 +121,7 @@ body {
   border-bottom: 0.15em solid black;
   color: white;
   display: none;
+  font-size: 4em;
 }
 
 #photos .col-md-4:hover h2 {
