@@ -1,0 +1,54 @@
+/* General Rules */
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 100%;
+  background: url('../images/Darkbackground.jpg');
+  background-attachment: fixed;
+}
+
+#header {
+  height: 100%;
+}
+
+#wrapper  {
+  height: 100%;
+  background: url('../images/abstract-fence.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 1em solid red;
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#content-box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#header #content img {
+  width: 8em;
+  height: 8em;
+  display: inline;
+  border-radius: 100%;
+}
+
+#header p {
+  font-size: 2em;
+  font-weight: bolder;
+  margin: 0;
+}
+
+#header p:hover {
+  color: white;
+}
+
