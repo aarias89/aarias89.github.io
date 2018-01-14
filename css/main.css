@@ -152,3 +152,18 @@ body {
   background-color:#95a5a6 ;
   font-size: 1.5em;
 }
+
+/* Footer */
+
+footer .fa {
+  color: #95a5a6;
+  font-size: 4em;
+}
+
+footer h3 {
+  color: #95a5a6;
+}
+footer p {
+  color: #95a5a6;
+  font-size: .5 em;
+}
