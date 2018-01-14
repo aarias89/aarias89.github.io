@@ -116,7 +116,7 @@ body {
 
 #photos h2 {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   border-top: 0.15em solid black;
@@ -128,4 +128,27 @@ body {
 
 #photos .col-md-4:hover h2 {
   display: block;
+}
+
+/* contact-form */
+
+#contact-form {
+  padding: 3em 2em;
+}
+
+#contact-form h2 {
+  text-align: center;
+}
+
+.form {
+  border-radius: 2em;
+  background-color: white;
+  opacity: 0.6;
+  padding: 2em 1em;
+  height: 33em;
+}
+
+.form button {
+  background-color:#95a5a6 ;
+  font-size: 1.5em;
 }
