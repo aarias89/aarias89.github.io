@@ -63,7 +63,8 @@ body {
 }
 
 .navbar button {
-  background-color: transparent;
+  background-color: white;
+  opacity: 0.3;
 }
 
 .navbar button:hover {
