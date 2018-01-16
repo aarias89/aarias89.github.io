@@ -1,0 +1,12 @@
+/* General Rules */
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 100%;
+  background: url('../images/bw-golden-gate-bridge-pillar-against-foggy-sky-picjumbo-com.jpg');
+  background-size: 160% ;
+  background-attachment: fixed;
+  }
