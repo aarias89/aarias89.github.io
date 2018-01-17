@@ -3,8 +3,20 @@
 <head>
   <title>Resume</title>
   <link rel="stylesheet" type="text/css" href="css/resume.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
+
+  <div id="nav-placeholder">
+      <script>
+          $.get("nav.html",function(data){
+              $("#nav-placeholder").replaceWith(data);
+          });
+      </script>
+  </div>
+
+<!-- Start of PDF -->
   <div class="PDF">
     <embed src="AriasAndresResumev1.0.pdf" type="application/pdf" width="100%"
     height="800px" />
@@ -15,6 +27,7 @@
       <button  id="pdf-button" type="submit">Open as PDF</button>
     </form>
   </div>
+<!-- End of PDF -->
 
 
 </body>
