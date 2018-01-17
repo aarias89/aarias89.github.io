@@ -6,9 +6,16 @@
 </head>
 <body>
   <div class="PDF">
-   <object data="your.pdf" type="application/pdf" width="750" height="600">
-       alt : <a href="your.pdf">your.pdf</a>
-   </object>
+<!--     <embed src="AriasAndresResumev1.0.pdf" type="application/pdf" width="100%"
+    height="800px" /> -->
+    <iframe src="AriasAndresResumev1.0.pdf" width="100%" height="500px"></iframe>
   </div>
+  <div style="text-align:center;">
+    <form method="get" action="AriasAndresResumev1.0.pdf">
+      <button  id="pdf-button" type="submit">Open as PDF</button>
+    </form>
+  </div>
+
+
 </body>
 </html>
