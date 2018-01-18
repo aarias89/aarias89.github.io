@@ -50,3 +50,39 @@ body {
   text-align: center;
   font-weight: bolder;
 }
+
+
+.navbar {
+  background-color: transparent;
+  border: 0;
+  padding: 10px;
+}
+
+.navbar button {
+  background-color: white;
+  opacity: 0.3;
+}
+
+.navbar button:hover {
+  background-color: azure!important;
+}
+
+.navbar-brand {
+  color: #95a5a6!important;
+  font-size: 1.3em;
+}
+
+.navbar a:not(.navbar-brand){
+  color:#95a5a6!important;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.navbar a:hover {
+  color: azure!important;
+}
+
+.dropdown-menu a:hover{
+  background-color: transparent;
+  color: azure!important;
+}
