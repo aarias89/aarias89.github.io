@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/aboutme.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="nav-placeholder">
+      <script>
+          $.get("nav.html",function(data){
+              $("#nav-placeholder").replaceWith(data);
+          });
+      </script>
+    </div>
+  <section id="header">
+    <div id="wrapper">
+      <div id="nav-placeholder">
+          <script>
+              $.get("nav.html",function(data){
+                  $("#nav-placeholder").replaceWith(data);
+              });
+          </script>
+      </div>
+      <div id="content">
+          <div id="content-box">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-responsive" src="images/profilepic.jpg" alt="profile picture">
+              </div>
+              <div class="col-md-6">
+                <h1>About Me</h1>
+                <p>Hi there, I am a web developer who travels between New York City and New Jersey. I studied Biology and Psychology at Rutgers University. What I found most facinating came from my biology classes and studying how the combination of proteins could come together to create intricate and complex organisms. </p>
+                <p>  I initially picked up coding a couple of years later as a hobby. I wanted to explore the similarity that computer code shared with biology and life. With time I realized how small blocks of code, like proteins can make up the most complex systems and programs that make up everything we know. I joined Dev Bootcamp to become a full-stack developer by learning a wide range of technologies, conventions, methodologies. Especially focusing on understanding the "why" of the code. Helping me create neat, and easily legible code. </p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+
+    <h1>Technical Skills</h1>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 col-sm-6">
+          <ul class="list-group">
+            <li class="list-group-item">HTML5</li>
+            <li class="list-group-item">CSS3</li>
+            <li class="list-group-item">BOOTSTRAP</li>
+            <li class="list-group-item">JQUERY</li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-sm-6">
+          <ul class="list-group">
+            <li class="list-group-item">JAVASCRIPT</li>
+            <li class="list-group-item">RUBY</li>
+            <li class="list-group-item">PYTHON</li>
+            <li class="list-group-item">POSTGRESQL</li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-sm-6">
+          <ul class="list-group">
+            <li class="list-group-item">SQLITE</li>
+            <li class="list-group-item">REACT/REDUX</li>
+            <li class="list-group-item">RUBY ON RAILS</li>
+
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-sm-6">
+          <ul class="list-group">
+            <li class="list-group-item">GIT/GITHUB</li>
+            <li class="list-group-item">JASMINE</li>
+            <li class="list-group-item">RSPEC</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
