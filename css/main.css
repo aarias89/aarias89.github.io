@@ -128,7 +128,7 @@ body {
   transform: translate(-50%,-50%);
   border-top: 0.15em solid black;
   border-bottom: 0.15em solid black;
-  color: white;
+  color: rgb(6, 72, 83);
   display: none;
   font-size: 3em;
 }
