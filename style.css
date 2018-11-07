@@ -113,3 +113,34 @@ a:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.slider .bx-wrapper .bx-controls-direction a {
+  display: none;
+}
+
+/* Start Of 3 Column Icon */
+.one-third {
+  width: 33.33%;
+  float: left;
+  text-align: justify;
+  text-align: center;
+}
+
+.icon-wrap {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 125%;
+  text-align: center;
+  background: #6991AC;
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+
+.icon-wrap i {
+  text-align: center;
+  color: #F0F0F0;
+  font-size: 450%;
+  padding: 20%;
+}
+/* End Of 3 Column Icon */
