@@ -1,0 +1,115 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+  background: #F1F6F8;
+  /* background: black; */
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #524C56;
+  font-size: 160%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+
+h3 {
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500;
+  color: #524C56;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+    color: #524C56;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+  color: #C3D7Df;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: -4px;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#banner-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+}
+header {
+  width: 100%;
+  height: 100px;
+  top:0;
+  left:0;
+}
+
+#logo {
+  margin:20px;
+  float: left;
+  width: 200px;
+  height: 60px:auto;
+  background: url(img/pics/JavaScriptlogo.png) no-repeat center;
+}
+
+/* NAVIGATION CSS */
+
+nav {
+  float: right;
+  padding: 25px 20px 0p 0px;
+}
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(img/icons/nav-dark.png) center
+}
+ul {
+  list-style: none;
+}
+nav ul li {
+  font-family: 'Alegreya Sans',sans-serif;
+  font-size: 150%;
+  display: inline-block;
+  float: left;
+  padding: 10px
+}
+nav ul li a {
+  color: #6991AC;
+}
+.current {
+  color: #3F5767;
+}
+a:hover {
+  color:#A5BDCD;
+}
+/* NAVIGATION CSS  END */
+
+.slider {
+  max-width: 1200px;
+}
+.slider1 img {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
