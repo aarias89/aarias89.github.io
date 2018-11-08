@@ -6,16 +6,50 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<title>Andres Arias | Web Developer</title>
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
-
+    <!--Styles  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  	<link href="style.css" rel="stylesheet">
-  	<link href="css/font-awesome.min.css" rel="stylesheet"/>
-  	<link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
-  	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-    	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <!--Scripts  -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!--Slider  -->
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slider1').bxSlider({
+          mode: 'fade',
+          captions: false,
+          auto:true,
+          pager:false,
+
+        });
+        $('.slider2').bxSlider({
+          pager:false,
+          captions: true,
+          maxSlides: 3,
+          minSlides: 1,
+          slideWidth: 230,
+          slideMargin: 10
+        });
+        $('.slider3').bxSlider({
+          mode: 'fade',
+          captions: false,
+          auto:true,
+          pager:false,
+          controls:false,
+        });
+      });
+    </script>
+
+
   </head>
 
   <body>
@@ -32,7 +66,7 @@
                 <a href="#" id="menu-icon"></a>
                 <ul>
                   <li><a href="/" class="current">Home</a></li>
-                  <li><a href="resume.html" target="_blank" >Resume</a></li>
+                  <li><a href="index.html#about">About</a></li>
                   <li><a href="index.html#skills">Skills</a></li>
                   <li><a href="index.html#featured">Portfolio</a></li>
                   <li><a href="index.html#contact-form">Contact</a></li>
@@ -43,7 +77,6 @@
   <!-- NAV BAR END  -->
 
   <!--- Slider Start -->
-  		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
     <!-- Slider Picture Start -->
       <div class="slide-wrap">
         <section class="slider">
@@ -56,31 +89,6 @@
       </div>
     <!-- Slider Picture End -->
 
-
-  		<script type="text/javascript">
-  			$('.slider1').bxSlider({
-  				mode: 'fade',
-  				captions: false,
-  				auto:true,
-  				pager:false,
-
-  			});
-  			$('.slider2').bxSlider({
-  				pager:false,
-  				captions: true,
-  				maxSlides: 3,
-  				minSlides: 1,
-  				slideWidth: 230,
-  				slideMargin: 10
-  			});
-  			$('.slider3').bxSlider({
-  				mode: 'fade',
-  				captions: false,
-  				auto:true,
-  				pager:false,
-  				controls:false,
-  			});
-  		</script>
   <!--- Slider End -->
       </div>
 <!-- Banner End -->
@@ -122,10 +130,6 @@
         </div>
 
         </div>
-        <!-- <h3>My Resume</h3>
-        <form id="pdf-button-form" method="get" action="AriasAndresResume.pdf" target="_blank">
-          <button  id="pdf-button" type="submit">Resume</button>
-        </form> -->
       </section>
 
       <div class="clearfix-padding"></div>
@@ -261,15 +265,15 @@
             <ul class="footer-nav">
               <li><a href="index.html">Home</a></li>
               <li><a href="index.html#about">About</a></li>
-              <li><a href="resume.html" target="_blank" >Resume</a></li>
               <li><a href="index.html#skills">Skills</a></li>
               <li><a href="index.html#featured">Portfolio</a></li>
               <li><a href="index.html#contact-form">Contact</a></li>
             </ul>
           </div>
+
           <div class="icon-text-text">
             <ul class="social">
-              <li><a href="resume.html"  target="_blank"><i class="fa fa-envelope"></i></a></li>
+              <li><a href="AriasAndresResume.pdf"  target="_blank"><i class="fa fa-file-pdf-o"></i></a></li>
               <li><a href="#"></a><i class="fa fa-facebook"></i></li>
               <li><a href="https://www.linkedin.com/in/ariasandres89/"><i class="fa fa-linkedin"></a></i></li>
               <li><a href="https://github.com/aarias89"><i class="fa fa-github"></i></a></li>
