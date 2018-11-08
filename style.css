@@ -167,9 +167,9 @@ a:hover {
 .sidebar {
   float: right;
   margin: 0 auto;
-  width: 25%;
+  width: 23%;
   height: auto;
-  padding: 5%;
+  padding: 1%;
 }
 #profile {
   opacity: .85;
