@@ -6,6 +6,9 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<title>Andres Arias | Web Developer</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   	<link href="css/jquery.bxslider.css" rel="stylesheet" />
   	<link href="style.css" rel="stylesheet">
@@ -29,6 +32,7 @@
                 <a href="#" id="menu-icon"></a>
                 <ul>
                   <li><a href="index.html" class="current">Home</a></li>
+                  <li><a href="resume.html" target="_blank" >Resume</a></li>
                   <li><a href="index.html#skills">Skills</a></li>
                   <li><a href="index.html#featured">Portfolio</a></li>
                   <li><a href="index.html#contact-form">Contact</a></li>
@@ -201,12 +205,43 @@
         <p>A repository that contains my favorite algorithms that have tested my logic and functional programming skills in the past</p>
       </section>
   <!-- End of Projects Section -->
-      <div id="contact-form"></div>
+      <div class="clearfix-padding"></div>
+        <!-- Contact Form -->
+  <section id="contact-form">
+    <div class="container">
+      <div class="row justify-content-md-center">
+          <div class="col-lg-12 form">
+              <h2>Contact me!</h2>
+              <form action="https://formspree.io/andresar11@gmail.com" method="POST">
+                  <div class="form-group">
+                      <input type="text" class="form-control input-lg" name="name" id="name" placeholder="Full Name">
+                  </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control input-lg" name="telephone" id="telephone" placeholder="Telephone">
+                  </div>
+                  <div class="form-group">
+                      <input type="email" class="form-control input-lg" name="_replyto" id="email" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control input-lg" name="subject" id="subject" placeholder="Subject">
+                  </div>
+                  <div class="form-group">
+                      <textarea type="text" class="form-control input-lg"  rows="5" name="message" id="message" placeholder="Message">
+                      </textarea>
+                  </div>
+                  <button type="submit" value="Send" class="btn btn-block">Submit</button>
+              </form>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Form -->
+
   <!-- End Wrapper -->
     </div>
     <div class="clearfix-padding"></div>
     <!-- Start of Footer -->
-    <footer>
+    <footer class="first">
       <div id="banner-wrapper">
         <div class="icon-text">
           <div class="icon-text-icon">
@@ -220,7 +255,7 @@
           </div>
           <div class="icon-text-text">
             <ul class="social">
-              <li><a href="#"></a><i class="fa fa-envelope"></i></li>
+              <li><a href="resume.html"  target="_blank"><i class="fa fa-envelope"></i></a></li>
               <li><a href="#"></a><i class="fa fa-facebook"></i></li>
               <li><a href="https://www.linkedin.com/in/ariasandres89/"><i class="fa fa-linkedin"></a></i></li>
               <li><a href="https://github.com/aarias89"><i class="fa fa-github"></i></a></li>

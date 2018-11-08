@@ -49,6 +49,7 @@ a {
 a:hover {
   color: #C3D7Df;
 }
+
 img {
   display: block;
   margin: 0 auto;
@@ -222,6 +223,45 @@ a:hover {
   padding: 3%;
 }
 
+/* Start Contact Form */
+#contact-form {
+  padding: 3em 2em;
+}
+
+#contact-form h2 {
+  font-size: 210%;
+  line-height: 170%;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Horizon footer--dont use */
+/* .first{
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+   background: radial-gradient(120% 120px at 50% -30px, #eee9e9 75%, transparent 75%);
+} */
+
+
+.form {
+  /* border-radius: 2em; */
+  /* background-color: white; */
+  opacity: 0.6;
+  padding: 2em 1em;
+  height: 33em;
+}
+
+.form button {
+  background-color:#95a5a6 ;
+  font-size: 1.5em;
+}
+
+
+
+/* End Contact Form */
+
 /*  Start Footer CSS */
 
 footer {
@@ -314,6 +354,7 @@ footer.second p {
     display: inline-block;
     width: 70px;
     height: 70px;
+    position: absolute;
   }
   nav:hover ul {
     display: block;
