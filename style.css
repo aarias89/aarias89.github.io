@@ -144,3 +144,101 @@ a:hover {
   padding: 20%;
 }
 /* End Of 3 Column Icon */
+
+.left-col {
+  float: left;
+  margin: 0 auto;
+  width: 60%;
+  height: auto;
+  padding: 1%
+}
+
+.sidebar {
+  float: right;
+  margin: 0 auto;
+  width: 32%;
+  height: auto;
+  padding: 1%;
+}
+
+.one-third-padding {
+  width: 29%;
+  float: left;
+  margin:2% 2%;
+  text-align: justify;
+}
+
+.clearfix-padding {
+  clear: both;
+  padding: 2%;
+}
+
+/*  Start Footer CSS */
+
+footer {
+  background: #6991AC;
+  width: 100;
+  overflow: auto;
+
+}
+
+.icon-text {
+  width: 100;
+  margin: 0 auto;
+}
+.icon-text-icon {
+  float: left;
+  width: 20%;
+  padding: 4%;
+}
+
+.icon-text-text {
+  width: 64%;
+  float: left;
+  padding: 4% 4% 2% 0%;
+}
+
+.footer-nav {
+  text-align: right;
+}
+.footer-nav a {
+  font-size: 160%;
+  color: #C3D7DF;
+  font-weight: 300;
+}
+.footer-nav a:hover {
+  color: #F5F5F5;
+}
+.social {
+  list-style-type: none;
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+.social i {
+  font-size: 380%;
+  margin: 1%;
+  padding: 5% 5% 5% 4%;
+  color: #C3D7DF;
+}
+
+.social i:hover {
+  color: #F5F5F5;
+}
+footer.second {
+  border-top: 1px solid #AADCD2;
+  background-color: #544B59;
+  max-height: 50px;
+  text-align: center;
+  margin: 0%;
+}
+footer.second p {
+  padding: 5px 0 9px 0;
+  text-align: center;
+  color: #F5F5F5;
+  font-size: 160%;
+  line-height: 155%;
+}
+/*  End Footer CSS */
