@@ -32,6 +32,14 @@ h3 {
   text-align: center;
   text-transform: uppercase;
 }
+h2 {
+  font-size: 210%;
+  line-height: 170%;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 a {
     color: #95a5a6;
@@ -158,9 +166,12 @@ a:hover {
 .sidebar {
   float: right;
   margin: 0 auto;
-  width: 32%;
+  width: 25%;
   height: auto;
-  padding: 1%;
+  padding: 5%;
+}
+#profile {
+  opacity: .85;
 }
 
 .one-third-padding {
@@ -168,19 +179,26 @@ a:hover {
   float: left;
   margin:2% 2%;
   text-align: justify;
+  padding-top: 5%;
 }
-/* Tech Icon CSS */
-/* <div class="tech-wrapper"> == banner-wrapper
-  <div class="tech-icon-padding"> == icon-text
-    <div class="tech-icon-icon"> == icon-text-text
-      <ul class="tech-icon-picture"> == social
-       */
 
+.one-third-padding a {
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 16%;
+}
+.one-third-padding a:hover {
+  color: #A5BDCD;
+}
 
 .tech-icon-icon {
   width: 100%;
   float: left;
-  padding: 10% 4% 10% 0%;
+  padding: 5% 4% 7% 0%;
 }
 .tech {
   list-style-type: none;
@@ -201,7 +219,7 @@ a:hover {
 
 .clearfix-padding {
   clear: both;
-  padding: 2%;
+  padding: 3%;
 }
 
 /*  Start Footer CSS */
@@ -278,14 +296,16 @@ footer.second p {
 @media screen and (max-width: 768px) {
   p {
     font-size: 130%;
+    text-align: center;
   }
   h3 {
     font-size: 150%;
   }
   header {
-    height: 80px;
+    height: 100px;
     position: relative;
   }
+
   #logo {
     margin: 15px 0 20px -25px;
     background: url() no-repeat center;
@@ -294,11 +314,18 @@ footer.second p {
     display: inline-block;
     width: 70px;
     height: 70px;
-    transition: top 0.3s;
   }
   nav:hover ul {
     display: block;
   }
+  #profile {
+    margin: 0 auto;
+    width: 45%;
+    height: auto;
+    padding: 5%;
+    opacity: .85;
+  }
+
   nav ul ,nav:active ul {
     display: none;
     z-index: 1000;
@@ -339,6 +366,15 @@ footer.second p {
     width: 98%;
     margin: 0%;
     padding: 1%;
+  }
+  .one-third-padding a {
+    font-size: 175%;
+    line-height: 155%;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 30%;
   }
   .icon-text-icon {
     width: 100%;
