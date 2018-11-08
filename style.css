@@ -1,5 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
-
+/* =====================Colors used ====================================*/
+/* #F1F6F8;#dcdcdc#262626 #3f3f3f;#f5f5f5;#95a5a6;#C3D7Df#3F5767;#A5BDCD */
+
+
 
 * {
 	margin: 0;
@@ -9,14 +12,18 @@
 
 body {
   /* background: #F1F6F8; */
-  background: black;
+  /* background: #dcdcdc; */
+  /* background:  #262626; */
+  /* background:  #3f3f3f; */
+  background:  #f5f5f5;
   font-family: sans-serif;
   margin: 0 auto;
 }
 
+
 p {
   font-family: 'Alegreya Sans', sans-serif;
-  color: #95a5a6;
+  color: #262626;
   font-size: 160%;
   line-height: 155%;
   padding: 3%;
@@ -28,7 +35,7 @@ h3 {
   font-size: 175%;
   line-height: 155%;
   font-weight: 500;
-  color: white;
+  color: #262626;
   text-align: center;
   text-transform: uppercase;
 }
@@ -36,19 +43,19 @@ h2 {
   font-size: 210%;
   line-height: 170%;
   font-weight: 700;
-  color: white;
+  color: #262626;
   text-align: center;
   text-transform: uppercase;
 }
 
-a {
-    color: #95a5a6;
+/* a {
+    color: #262626;
     text-decoration: none;
     font-weight: bold;
 }
 a:hover {
   color: #C3D7Df;
-}
+} */
 
 img {
   display: block;
@@ -87,7 +94,7 @@ header {
 
 nav {
   float: right;
-  padding: 20px 80px 0px 0px;
+  padding: 20px 20% 0px 0px;
 }
 #menu-icon {
   display: hidden;
@@ -105,12 +112,14 @@ nav ul li {
   float: left;
   padding: 10px
 }
+
 nav ul li a {
-  color: #95a5a6;
+  color: #3f3f3f;
 }
 .current {
   color: #3F5767;
 }
+
 a:hover {
   color:#A5BDCD;
 }
@@ -143,14 +152,14 @@ a:hover {
   height: 120px;
   border-radius: 125%;
   text-align: center;
-  background: #95a5a6;
+  background: #3f3f3f;
   margin-top: 8%;
   margin-bottom: 3%;
 }
 
 .icon-wrap i {
   text-align: center;
-  color: black;
+  color: #dcdcdc;
   font-size: 450%;
   padding: 20%;
 }
@@ -181,7 +190,7 @@ a:hover {
   padding: 15px 30px 15px 30px; /* 4 */
   color: #686868; /* 5 */
   text-decoration: none; /* 6 */
-  border: 1px solid #E3E3E3; /* 7 */
+  border: 2px solid #E3E3E3; /* 7 */
   position: relative; /* 8 */
   transition: 0.15s; /* 9 */
 }
@@ -203,7 +212,7 @@ a:hover {
   padding: 1%;
 }
 #profile {
-  opacity: .85;
+  /* opacity: .85; */
 }
 
 .one-third-padding {
@@ -218,10 +227,10 @@ a:hover {
   font-size: 175%;
   line-height: 155%;
   font-weight: 500;
-  color: white;
+  color: #3f3f3f;
   text-align: center;
   text-transform: uppercase;
-  padding-left: 16%;
+  padding-left: 33%;
 }
 .one-third-padding a:hover {
   color: #A5BDCD;
@@ -263,7 +272,7 @@ a:hover {
   font-size: 210%;
   line-height: 170%;
   font-weight: 700;
-  color: white;
+  color: #3f3f3f;
   text-align: center;
   text-transform: uppercase;
 }
@@ -279,7 +288,7 @@ a:hover {
 .form {
   /* border-radius: 2em; */
   /* background-color: white; */
-  opacity: 0.6;
+  opacity: 0.8;
   padding: 2em 1em;
   height: 33em;
 }
@@ -370,10 +379,14 @@ footer.second p {
     text-align: center;
   }
   h3 {
-    font-size: 150%;
+    font-size: 100%;
+  }
+  h2 {
+    font-size: 160%;
+    padding-bottom: 1%;
   }
   header {
-    height: 100px;
+    height: 70px;
     position: relative;
   }
 
@@ -384,7 +397,7 @@ footer.second p {
   #menu-icon {
     display: inline-block;
     width: 70px;
-    height: 70px;
+    height: 40px;
     position: absolute;
   }
   nav:hover ul {
@@ -442,11 +455,12 @@ footer.second p {
     margin: 0%;
     padding: 1%;
   }
+
   .one-third-padding a {
-    font-size: 175%;
+    font-size: 150%;
     line-height: 155%;
     font-weight: 500;
-    color: white;
+    color: #3f3f3f;
     text-align: center;
     text-transform: uppercase;
     padding-left: 30%;
