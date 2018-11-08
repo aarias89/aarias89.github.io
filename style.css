@@ -87,7 +87,7 @@ header {
 
 nav {
   float: right;
-  padding: 25px 20px 0px 0px;
+  padding: 20px 80px 0px 0px;
 }
 #menu-icon {
   display: hidden;
@@ -175,7 +175,7 @@ a:hover {
 
 
 /* ===========================================================================  */
-
+/* PDF DOWNLOAD BUTTON */
 .download-button {
   display: inline-block; /* 1 */
   padding: 15px 30px 15px 30px; /* 4 */
@@ -194,21 +194,7 @@ a:hover {
 .download-button:active {
   animation: enlight 0.5s;
 }
-
-
 /* ===========================================================================  */
-
-
-
-
-
-
-
-
-
-
-
-
 .sidebar {
   float: right;
   margin: 0 auto;
