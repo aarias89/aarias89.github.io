@@ -8,15 +8,15 @@
 }
 
 body {
-  background: #F1F6F8;
-  /* background: black; */
+  /* background: #F1F6F8; */
+  background: black;
   font-family: sans-serif;
   margin: 0 auto;
 }
 
 p {
   font-family: 'Alegreya Sans', sans-serif;
-  color: #524C56;
+  color: #95a5a6;
   font-size: 160%;
   line-height: 155%;
   padding: 3%;
@@ -28,13 +28,13 @@ h3 {
   font-size: 175%;
   line-height: 155%;
   font-weight: 500;
-  color: #524C56;
+  color: white;
   text-align: center;
   text-transform: uppercase;
 }
 
 a {
-    color: #524C56;
+    color: #95a5a6;
     text-decoration: none;
     font-weight: bold;
 }
@@ -64,19 +64,21 @@ header {
   left:0;
 }
 
-#logo {
+/* Add when proper logo is found */
+/* #logo {
   margin:20px;
   float: left;
   width: 200px;
-  height: 60px:auto;
-  background: url(img/pics/JavaScriptlogo.png) no-repeat center;
-}
+  height: 60px ;
+  background: url(img/icons/logo.png) no-repeat center;
+} */
 
+/* img/icons/nav-dark.png */
 /* NAVIGATION CSS */
 
 nav {
   float: right;
-  padding: 25px 20px 0p 0px;
+  padding: 25px 20px 0px 0px;
 }
 #menu-icon {
   display: hidden;
@@ -95,7 +97,7 @@ nav ul li {
   padding: 10px
 }
 nav ul li a {
-  color: #6991AC;
+  color: #95a5a6;
 }
 .current {
   color: #3F5767;
@@ -132,14 +134,14 @@ a:hover {
   height: 120px;
   border-radius: 125%;
   text-align: center;
-  background: #6991AC;
+  background: #95a5a6;
   margin-top: 8%;
   margin-bottom: 3%;
 }
 
 .icon-wrap i {
   text-align: center;
-  color: #F0F0F0;
+  color: black;
   font-size: 450%;
   padding: 20%;
 }
@@ -167,6 +169,35 @@ a:hover {
   margin:2% 2%;
   text-align: justify;
 }
+/* Tech Icon CSS */
+/* <div class="tech-wrapper"> == banner-wrapper
+  <div class="tech-icon-padding"> == icon-text
+    <div class="tech-icon-icon"> == icon-text-text
+      <ul class="tech-icon-picture"> == social
+       */
+
+
+.tech-icon-icon {
+  width: 100%;
+  float: left;
+  padding: 10% 4% 10% 0%;
+}
+.tech {
+  list-style-type: none;
+  text-align: center;
+}
+
+.tech li {
+  display: inline-flex;
+  padding: 5% 5% 1% 1%;
+}
+.tech i {
+  font-size: 400%;
+  margin: 1%;
+  padding: 5% 5% 5% 4%;
+  color: #C3D7DF;
+}
+
 
 .clearfix-padding {
   clear: both;
@@ -177,9 +208,8 @@ a:hover {
 
 footer {
   background: #6991AC;
-  width: 100;
+  width: 100%;
   overflow: auto;
-
 }
 
 .icon-text {
@@ -262,6 +292,9 @@ footer.second p {
   }
   #menu-icon {
     display: inline-block;
+    width: 70px;
+    height: 70px;
+    transition: top 0.3s;
   }
   nav:hover ul {
     display: block;
