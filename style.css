@@ -383,6 +383,9 @@ footer.second p {
     text-align: center;
     width: 100%;
   }
+  nav:active ul {
+  display: block;
+   }﻿
   .one-third {
     float: left;
     width: 100%;
