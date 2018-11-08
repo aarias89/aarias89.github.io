@@ -242,3 +242,94 @@ footer.second p {
   line-height: 155%;
 }
 /*  End Footer CSS */
+
+
+/*                   MEDIA                 */
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 130%;
+  }
+  h3 {
+    font-size: 150%;
+  }
+  header {
+    height: 80px;
+    position: relative;
+  }
+  #logo {
+    margin: 15px 0 20px -25px;
+    background: url() no-repeat center;
+  }
+  #menu-icon {
+    display: inline-block;
+  }
+  nav:hover ul {
+    display: block;
+  }
+  nav ul ,nav:active ul {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    padding: 20px;
+    background: #F5F5F5;
+    border: 1px solid #A5BDCD;
+    right: 20px;
+    width: 50%;
+    border-radius: 3px 0 3px 3px;
+    opacity: .95;
+  }
+  nav li {
+    text-align: center;
+    width: 100%;
+  }
+  .one-third {
+    float: left;
+    width: 100%;
+  }
+  .icon-wrap {
+    height: 80px;
+    width: 80px;
+    margin-top: 3%;
+  }
+  .icon-wrap i {
+    font-size: 250%;
+    padding-top: 27%
+  }
+  .left-col {
+    width: 100%;
+    padding: 0;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .one-third-padding {
+    width: 98%;
+    margin: 0%;
+    padding: 1%;
+  }
+  .icon-text-icon {
+    width: 100%;
+    padding: 0 0 2% 0 ;
+  }
+  .icon-text-text {
+    width: 100%;
+    padding: 2% 0 0 0;
+    font-size: 80%;
+  }
+  .footer-nav {
+    text-align: center;
+    padding-top: 5%;
+  }
+  .footer-nav li {
+    padding: 1%;
+  }
+
+  .footer-nav a {
+    font-size: 145%;
+  }
+
+  .social i {
+    font-size: 180%;
+  }
+
+}
