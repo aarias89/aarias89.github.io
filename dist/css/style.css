@@ -3,6 +3,7 @@ body {
   background-color: #e3e3e3;
   width: 96%;
   margin: auto;
+  /* overflow: hidden; */
 }
 .main-content-container {
   padding-top: 0em;
@@ -35,7 +36,6 @@ body {
   width: 96%;
   display: inline-flex;
   justify-content: space-between;
-  padding: 0 2% 0 2%;
 }
 .nav-links {
   width: 45%;
@@ -55,6 +55,7 @@ body {
     width: 100%;
     margin: auto;
   }
+
   #nav-intro {
     width: 65%;
     margin-bottom: 0px;
@@ -117,6 +118,7 @@ body {
   .nav-container > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
+
   .nav-container > #nav-check:checked ~ .nav-links {
     height: 100vh;
     overflow-y: auto;
