@@ -25,18 +25,19 @@ body {
   border-bottom: dotted;
   color: #ffffff;
 }
+
+/* TEXT STYLES END */
 .nav-links a {
   color: #cfcccc;
   text-decoration: none;
   font-size: 25px;
 }
-
+h1 {
+  color: #ffffff;
+}
 h3 {
   color: #ffffff;
   font-size: 25px;
-}
-h1 {
-  color: #ffffff;
 }
 p {
   color: #ffffff;
@@ -44,6 +45,8 @@ p {
 li {
   color: #ffffff;
 }
+
+/*===// TEXT STYLES END //===*/
 
 /* NAV BAR START */
 #nav-intro {
@@ -163,7 +166,7 @@ footer ul {
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
   body {
-    background-color: #e3e3e3;
+    /* background-color: #e3e3e3; */
     width: 100%;
     margin: auto;
   }
@@ -241,11 +244,26 @@ footer ul {
 @media only screen and (min-width: 600px) {
   ...;
 }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 699px) and (min-width: 601px) {
+  .nav-links a {
+    font-size: 17px;
+  }
+  .nav-container h1 {
+    font-size: 27px;
+  }
+
+  .nav-container h2 {
+    font-size: 12px;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {
-  ...;
-} */
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+  .nav-links a {
+    font-size: 20px;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
