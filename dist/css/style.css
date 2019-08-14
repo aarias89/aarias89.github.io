@@ -1,6 +1,10 @@
-/* COLOR SCHEME #E3E3E3 #F6F6F8 #C60021 */
+/* COLOR SCHEME 
+page-bg:  #22223a
+contrast-titles: #d56c2c
+text: #cfcccc, #fffffff
+*/
 body {
-  background-color: #e3e3e3;
+  background-color: #22223a;
   width: 96%;
   margin: auto;
   /* overflow: hidden; */
@@ -9,6 +13,38 @@ body {
   padding-top: 0em;
   padding: 0 2% 0 2%;
 }
+
+.red-txt,
+#experience-title {
+  color: #d56c2c !important;
+}
+#project-name {
+  color: #d56c2c;
+}
+.nav-links a:hover {
+  border-bottom: dotted;
+  color: #ffffff;
+}
+.nav-links a {
+  color: #cfcccc;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 25px;
+}
+h1 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+li {
+  color: #ffffff;
+}
+
 /* NAV BAR START */
 #nav-intro {
   width: 65%;
@@ -22,11 +58,7 @@ body {
 .nav-container h2 {
   font-size: 15px;
 }
-.nav-container a {
-  text-decoration: none;
-  font-size: 25px;
-  color: #000000;
-}
+
 .nav-container > #nav-check {
   display: none;
 }
