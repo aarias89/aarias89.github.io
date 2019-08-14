@@ -14,8 +14,8 @@ body {
   padding: 0 2% 0 2%;
 }
 #profile-pic img {
-  /* height: 200px; */
-  /* width: 85%; */
+  height: 200px;
+  width: auto;
   padding-right: 15%;
   /* background-image: url(../img/profile.jpg); */
   /* background-repeat: no-repeat; */
