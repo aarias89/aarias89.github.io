@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $('.nav-container').click(function() {
+  $('button').click(function() {
     // alert('CLIKED!');
-    // $('p').hide();
+    $('#resume').toggle('slow');
   });
   // $("#show").click(function(){
   //   $("p").show();

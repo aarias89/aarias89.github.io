@@ -28,6 +28,15 @@ body {
   /* height: 335px; */
 }
 
+#resume {
+  display: none;
+  text-align: center;
+}
+#resume img {
+  height: 600px;
+  width: auto;
+}
+
 .red-txt,
 #experience-title {
   color: #d56c2c !important;
