@@ -80,6 +80,26 @@ li {
 }
 
 /*===// TEXT STYLES END //===*/
+/* PDF DOWNLOAD BUTTON */
+.download-btn {
+  display: inline-block; /* 1 */
+  padding: 15px 30px 15px 30px; /* 4 */
+  color: #ffffff; /* 5 */
+  text-decoration: none; /* 6 */
+  border: 2px solid #e3e3e3; /* 7 */
+  position: relative; /* 8 */
+  transition: 0.15s; /* 9 */
+}
+
+.download-btn:focus,
+.download-btn:hover {
+  border-color: #d56c2c; /* 1 */
+  outline: none; /* 2 */
+  font-size: 1.5em;
+}
+.download-btn:active {
+  animation: enlight 0.5s;
+}
 
 /* NAV BAR START */
 #nav-intro {
@@ -179,7 +199,7 @@ footer ul {
 }
 #projects {
   display: grid;
-  align-items: center;
+  align-items: baseline;
   grid-template-columns: repeat(auto-fit, minmax(249px, 1fr));
   grid-gap: 30px;
 }
