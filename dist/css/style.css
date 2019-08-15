@@ -33,8 +33,11 @@ body {
   text-align: center;
 }
 #resume img {
-  height: 600px;
+  height: 55em;
   width: auto;
+}
+button {
+  margin: 0 0 2% 0;
 }
 
 .red-txt,
@@ -172,7 +175,7 @@ footer ul {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-gap: 30px;
+  grid-gap: 7px;
 }
 #projects {
   display: grid;
@@ -290,6 +293,10 @@ footer ul {
   }
   #profile-pic img {
     padding: 0 0 0 0;
+  }
+  #resume img {
+    height: 22em;
+    width: auto;
   }
 }
 
