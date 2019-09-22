@@ -1,9 +1,12 @@
-$(document).ready(function() {
-  $('button').click(function() {
-    // alert('CLIKED!');
-    $('#resume').toggle('slow');
+$(document).ready(function() {});
+
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+const links = document.querySelectorAll('.nav-links li');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+  links.forEach(link => {
+    link.classList.toggle('fade');
   });
-  // $("#show").click(function(){
-  //   $("p").show();
-  // });
 });
