@@ -22,9 +22,9 @@ nav {
 }
 
 #nav-intro {
-  padding-top: 1.5%;
+  /* padding-top: 1.5%; */
   width: 50%;
-  line-height: 1px;
+  line-height: 2px;
   padding-left: 2%;
 }
 #nav-intro h1 {
@@ -88,7 +88,7 @@ nav {
   }
   nav {
     position: relative;
-    height: 10vh;
+    height: 12vh;
   }
   .hamburger {
     position: absolute;
@@ -100,7 +100,7 @@ nav {
   }
   .nav-links {
     position: fixed;
-    background: #1a1b1f;
+    background: #2e1114;
     height: 100vh;
     width: 100%;
     flex-direction: column;
