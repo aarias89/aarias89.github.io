@@ -11,6 +11,8 @@ import PropTypes from "prop-types"
 
 // import Header from "./header"
 import Menu from "./menu"
+// import ContactForm from "./contact-form"
+import FormContainer from "./submitFormComponents/FormContainer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -28,6 +30,9 @@ const Layout = ({ children }) => {
     <>
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <Menu />
+      <FormContainer />
+      <br></br>
+      {/* <ContactForm /> */}
       <div
         style={{
           margin: `0 auto`,
