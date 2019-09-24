@@ -99,6 +99,7 @@ class FormContainer extends Component {
   }
 
   formSubmitHandler = e => {
+    e.preventDefault()
     const { name, phone, my_email, subject, message } = this.state.formControls
     const temp = {
       name: name.value,
@@ -107,6 +108,30 @@ class FormContainer extends Component {
       subject: subject.value,
       message: message.value,
     }
+    this.setState({
+      formControls: {
+        name: {
+          value: "",
+          placeholder: "name",
+        },
+        phone: {
+          value: "",
+          placeholder: "phone number",
+        },
+        my_email: {
+          value: "",
+          placeholder: "email",
+        },
+        subject: {
+          value: "",
+          placeholder: "subject",
+        },
+        message: {
+          value: "",
+          placeholder: "message",
+        },
+      },
+    })
 
     axios
       .post("https://formcarry.com/s/LImYl5ZHOpE", temp, {
@@ -118,9 +143,7 @@ class FormContainer extends Component {
       .catch(function(error) {
         console.log(error)
       })
-    console.log(temp)
-
-    e.preventDefault()
+    alert("Message Has Been Sent")
   }
 
   render() {
