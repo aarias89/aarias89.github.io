@@ -9,10 +9,10 @@ const TextArea = props => {
   }
 
   return (
-    <div className="form-group">
+    <Form.Group>
       <Form.Label>{props.labelName}</Form.Label>
       <textarea {...props} rows="3" className={formControl} />
-    </div>
+    </Form.Group>
   )
 }
 

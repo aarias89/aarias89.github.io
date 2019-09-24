@@ -7,7 +7,7 @@ const TextInput = props => {
     formControl = "form-control control-error"
   }
   return (
-    <Form.Group controlId="exampleForm.ControlInput1">
+    <Form.Group>
       <Form.Label>{props.labelName}</Form.Label>
       <Form.Control className={formControl} type="text" {...props} />
     </Form.Group>

@@ -9,10 +9,10 @@ const Email = props => {
   }
 
   return (
-    <div className="form-group">
+    <Form.Group>
       <Form.Label>{props.labelName}</Form.Label>
       <input type="email" className={formControl} {...props} />
-    </div>
+    </Form.Group>
   )
 }
 
