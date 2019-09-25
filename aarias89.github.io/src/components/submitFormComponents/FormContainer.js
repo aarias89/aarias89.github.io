@@ -148,7 +148,7 @@ class FormContainer extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div>
         <h3>Contact Me</h3>
         <TextInput
           name="name"

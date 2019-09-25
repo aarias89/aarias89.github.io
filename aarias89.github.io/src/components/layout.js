@@ -11,8 +11,8 @@ import PropTypes from "prop-types"
 
 // import Header from "./header"
 import Menu from "./menu"
-// import ContactForm from "./contact-form"
 import FormContainer from "./submitFormComponents/FormContainer"
+import { Container, Row, Col } from "react-bootstrap"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -30,17 +30,22 @@ const Layout = ({ children }) => {
     <>
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <Menu />
-      <FormContainer />
-      <br></br>
-      {/* <ContactForm /> */}
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 1080,
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
         }}
       >
+        <Container>
+          <Row className="justify-content-md-center">
+            <Col xs={8}>
+              <FormContainer />
+            </Col>
+          </Row>
+        </Container>
+
         <main>{children}</main>
         {/* <footer>
           © {new Date().getFullYear()}, Built with
