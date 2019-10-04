@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
-import "./menu.css"
+import "../style/menu.css"
 
 export default function Menu() {
   return (
@@ -14,11 +14,11 @@ export default function Menu() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto"></Nav>
-          <Nav>
-            <Nav.Link href="#features">About</Nav.Link>
-            <Nav.Link href="#pricing">Skills</Nav.Link>
-            <Nav.Link href="#deets">Portfolio</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+          <Nav className="menu-links">
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link eventKey={2} href="#contact">
               Contact
             </Nav.Link>
           </Nav>

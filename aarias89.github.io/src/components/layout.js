@@ -11,9 +11,10 @@ import PropTypes from "prop-types"
 
 // import Header from "./header"
 import Menu from "./menu"
+import About from "./aboutMe"
 import FormContainer from "./submitFormComponents/FormContainer"
 import { Container, Row, Col } from "react-bootstrap"
-import "./layout.css"
+import "../style/layout.css"
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -39,6 +40,7 @@ const Layout = ({ children }) => {
         }}
       >
         <Container>
+          <About />
           <Row className="justify-content-md-center">
             <Col xs={12} md={8}>
               <FormContainer />

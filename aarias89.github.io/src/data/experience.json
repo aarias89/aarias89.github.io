@@ -1,0 +1,11 @@
+[
+  {
+    "companyName": "D3-NYC",
+    "jobTitle": "Front-End Developer",
+    "date": {
+      "start": "Nov-2018",
+      "end": "July-2019"
+    },
+    "tasks": ["thing one", "thing two"]
+  }
+]

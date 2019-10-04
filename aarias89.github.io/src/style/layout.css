@@ -632,3 +632,7 @@ pre tt:after {
 .control-error {
   border: 1px solid red !important;
 }
+
+.menu-links a {
+  font-size: 1.2em;
+}
