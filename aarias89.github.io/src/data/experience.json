@@ -1,11 +1,16 @@
 [
   {
+    "id": "1",
     "companyName": "D3-NYC",
     "jobTitle": "Front-End Developer",
     "date": {
-      "start": "Nov-2018",
-      "end": "July-2019"
+      "start": "Nov 2018",
+      "end": "July 2019"
     },
-    "tasks": ["thing one", "thing two"]
+    "tasks": [
+      "Created marketing campaign emails and integrated them to various CRMs (Oracle Responsys, Mailchilp, Braze)",
+      "Produced web pages for clients using HTML, CSS, and JavaScript.",
+      "Continuously updated email templating engine to increase product volume, reduce errors, and maintain high quality emails."
+    ]
   }
 ]

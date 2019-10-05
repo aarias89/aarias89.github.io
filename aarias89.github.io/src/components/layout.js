@@ -12,6 +12,8 @@ import PropTypes from "prop-types"
 // import Header from "./header"
 import Menu from "./menu"
 import About from "./aboutMe"
+import ExperienceList from "./experienceList"
+import ExperienceData from "../data/experience.json"
 import FormContainer from "./submitFormComponents/FormContainer"
 import { Container, Row, Col } from "react-bootstrap"
 import "../style/layout.css"
@@ -41,6 +43,7 @@ const Layout = ({ children }) => {
       >
         <Container>
           <About />
+          <ExperienceList data={ExperienceData} />
           <Row className="justify-content-md-center">
             <Col xs={12} md={8}>
               <FormContainer />
