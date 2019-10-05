@@ -12,14 +12,14 @@ export default class ExperienceCard extends Component {
       <div>
         <Container>
           <Row>
-            <Col xs={12} md={7}>
-              <p>
+            <Col xs={12} md={10}>
+              <p id="experience-title">
                 {companyName} , &nbsp;{jobTitle}
               </p>
-              <p>
+              <p id="experience-time">
                 {date.start} - {date.end}
               </p>
-              <ul>
+              <ul id="experince-list">
                 {tasks.map((task, index) => (
                   <li key={task + index}>{task}</li>
                 ))}
@@ -27,31 +27,6 @@ export default class ExperienceCard extends Component {
             </Col>
           </Row>
         </Container>
-
-        {/* <Container>
-          <Row>
-            <Col xs={12} md={7}>
-              <h3>Relevant Experience</h3>
-              <p id="experience-title">{companyName}, Front-End Developer</p>
-              <p id="experience-time">Nov 2018 - Present</p>
-              <ul id="experince-list">
-                <li>
-                  Created marketing campaign emails and integrated them to
-                  various CRMs (Oracle Responsys, Mailchilp, Braze)
-                </li>
-                <li>
-                  Produced web pages for clients using HTML, CSS, and
-                  JavaScript.
-                </li>
-                <li>
-                  Continuously updated email templating engine to increase
-                  product volume, reduce errors, and maintain high quality
-                  emails.
-                </li>
-              </ul>
-            </Col>
-          </Row>
-        </Container> */}
       </div>
     )
   }

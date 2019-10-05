@@ -636,3 +636,18 @@ pre tt:after {
 .menu-links a {
   font-size: 1.2em;
 }
+#experience-title {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #d56c2c !important;
+  margin-bottom: 0px;
+}
+
+#experience-time {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#experience-list li {
+  text-decoration: none;
+}

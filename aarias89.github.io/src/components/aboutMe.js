@@ -6,6 +6,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
+        <br />
         <h3>About me</h3>
         <Container>
           <Row>
