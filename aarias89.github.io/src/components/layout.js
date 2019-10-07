@@ -6,6 +6,7 @@
  */
 
 import React from "react"
+import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 
@@ -42,6 +43,14 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Andres Arias | Web Developer</title>
+          <link
+            rel="stylesheet"
+            href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+          />
+        </Helmet>
         <Container>
           <About />
           <ExperienceList data={ExperienceData} />
