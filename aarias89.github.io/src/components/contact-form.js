@@ -7,7 +7,7 @@ class ContactForm extends Component {
   render() {
     return (
       <div className="container">
-        <h3>Contact Me</h3>
+        <h3 id="contact">Contact Me ye?</h3>
         <Form action="https://formspree.io/andresar11@gmail.com" method="POST">
           <Form.Group controlId="exampleForm.ControlInput1">
             <Form.Label>Name</Form.Label>

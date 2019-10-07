@@ -7,7 +7,7 @@ export default class About extends Component {
     return (
       <div>
         <br />
-        <h3>About me</h3>
+        <h3 id="about">About me</h3>
         <Container>
           <Row>
             <Col xs={12} md={4}>
