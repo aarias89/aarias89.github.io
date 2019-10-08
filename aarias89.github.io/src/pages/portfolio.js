@@ -5,9 +5,9 @@ import SEO from "../components/seo"
 
 const PortfolioPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi PortfolioPage</h1>
-    <p>Welcome to page </p>
+    <SEO title="Portfolio" />
+    <h1>Hi from Portfolio Page</h1>
+    <p>Welcome to the page... under construction </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

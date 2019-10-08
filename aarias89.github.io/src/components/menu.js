@@ -16,16 +16,19 @@ export default function Menu() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto"></Nav>
           <Nav className="menu-links">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#experience">Experience</Nav.Link>
+            <Nav.Link as={Link} href="#about" to="/#about">
+              About
+            </Nav.Link>
+            <Nav.Link as={Link} href="#experience" to="/#experience">
+              Experience
+            </Nav.Link>
             <Nav.Link as={Link} href="#skills" to="/#skills">
               Skills
             </Nav.Link>
             <Nav.Link as={Link} to="/portfolio/">
               Portfolio
             </Nav.Link>
-
-            <Nav.Link eventKey={2} href="#contact">
+            <Nav.Link eventKey={2} as={Link} href="#contact" to="/#contact">
               Contact
             </Nav.Link>
           </Nav>
