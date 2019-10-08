@@ -2,8 +2,6 @@ import React, { Component } from "react"
 import { Container, Row, Col, Image } from "react-bootstrap"
 import profilepic from "../images/profilepic.png"
 
-import { Link } from "gatsby"
-
 export default class About extends Component {
   render() {
     return (
@@ -21,7 +19,7 @@ export default class About extends Component {
                 things with JavaScript and Ruby on Rails. I enjoy working with
                 client-side and server-side technologies and I am always looking
                 into learning and playing with new technologies that will
-                further improve my craft in any way. YAY?
+                further improve my craft in any way.
               </p>
             </Col>
           </Row>

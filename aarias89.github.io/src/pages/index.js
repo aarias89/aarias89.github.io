@@ -14,6 +14,9 @@ import Skills from "../components/skills"
 import { Container, Row, Col } from "react-bootstrap"
 import "../style/layout.css"
 
+import MyVerticallyCenteredModal from "../components/modal"
+// import { Modal, Button, ButtonToolbar } from "react-bootstrap"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Andres Arias" />
