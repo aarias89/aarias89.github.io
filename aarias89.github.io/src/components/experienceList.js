@@ -26,6 +26,7 @@ class ExperienceList extends Component {
           </Button>
           <MyModal show={this.state.addModalShow} onHide={addModalClose} />
         </ButtonToolbar>
+        <br />
       </div>
     )
   }
