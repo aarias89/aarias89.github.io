@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import { Container, Row, Col, Image } from "react-bootstrap"
 import profilepic from "../images/profilepic.png"
 
+import { Link } from "gatsby"
+
 export default class About extends Component {
   render() {
     return (
@@ -19,10 +21,12 @@ export default class About extends Component {
                 things with JavaScript and Ruby on Rails. I enjoy working with
                 client-side and server-side technologies and I am always looking
                 into learning and playing with new technologies that will
-                further improve my craft in any way.
+                further improve my craft in any way. YAY?
               </p>
             </Col>
           </Row>
+          <Link to="/page-2/">Go to page 2</Link>
+          <Link to="/portfolio/">Portfolio</Link>
         </Container>
       </div>
     )

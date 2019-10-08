@@ -2,6 +2,7 @@ import React from "react"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import "../style/menu.css"
+import { Link } from "gatsby"
 
 export default function Menu() {
   return (
@@ -17,8 +18,13 @@ export default function Menu() {
           <Nav className="menu-links">
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link as={Link} href="#skills" to="/#skills">
+              Skills
+            </Nav.Link>
+            <Nav.Link as={Link} to="/portfolio/">
+              Portfolio
+            </Nav.Link>
+
             <Nav.Link eventKey={2} href="#contact">
               Contact
             </Nav.Link>

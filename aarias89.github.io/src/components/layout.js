@@ -12,7 +12,7 @@ import PropTypes from "prop-types"
 
 // import Header from "./header"
 import Menu from "./menu"
-import About from "./aboutMe"
+
 import ExperienceList from "./experienceList"
 import ExperienceData from "../data/experience.json"
 import FormContainer from "./submitFormComponents/FormContainer"
@@ -51,19 +51,8 @@ const Layout = ({ children }) => {
             href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
           />
         </Helmet>
-        <Container>
-          <About />
-          <ExperienceList data={ExperienceData} />
-          <Skills />
-          {/* <Row className="justify-content-md-center"> */}
-          <Row>
-            <Col xs={12} md={8}>
-              <FormContainer />
-            </Col>
-          </Row>
-        </Container>
 
-        {/* <main>{children}</main> */}
+        <main>{children}</main>
         {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
