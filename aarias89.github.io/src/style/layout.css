@@ -669,3 +669,6 @@ pre tt:after {
   margin: 1%;
   padding: 5% 5% 5% 4%;
 }
+.modal-content {
+  text-align: center;
+}

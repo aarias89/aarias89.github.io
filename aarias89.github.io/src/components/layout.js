@@ -12,12 +12,6 @@ import PropTypes from "prop-types"
 
 // import Header from "./header"
 import Menu from "./menu"
-
-import ExperienceList from "./experienceList"
-import ExperienceData from "../data/experience.json"
-import FormContainer from "./submitFormComponents/FormContainer"
-import Skills from "./skills"
-import { Container, Row, Col } from "react-bootstrap"
 import "../style/layout.css"
 
 const Layout = ({ children }) => {
