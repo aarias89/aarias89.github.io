@@ -672,3 +672,8 @@ pre tt:after {
 .modal-content {
   text-align: center;
 }
+
+canvas {
+  height: 100% !important;
+  width: 100% !important;
+}
