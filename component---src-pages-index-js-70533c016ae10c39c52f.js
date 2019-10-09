@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{300:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),c=t(298),i=t(297);t(304);n.default=function(){return r.a.createElement(c.a,null,r.a.createElement(i.a,{title:"Andres Arias"}))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-70533c016ae10c39c52f.js.map
