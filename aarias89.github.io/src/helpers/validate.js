@@ -24,6 +24,12 @@ const validate = (value, rules) => {
 }
 
 /**
+ * Will be using JsDoc to help document and keep track of helper fucntion and their roles in code
+ * for information see https://devdocs.io/jsdoc/about-block-inline-tags#overview
+ *
+ */
+
+/**
  * minLength Val
  * @param  value
  * @param  minLength
