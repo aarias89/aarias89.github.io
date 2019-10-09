@@ -27,6 +27,9 @@ class MyModal extends Component {
           <PDF className="justify-content-md-center" file={Resume} />
         </Modal.Body>
         <Modal.Footer>
+          <Button href={Resume} download>
+            Download PDF
+          </Button>
           <Button onClick={this.props.onHide}>Close</Button>
         </Modal.Footer>
       </Modal>
