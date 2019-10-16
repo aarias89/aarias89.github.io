@@ -6,6 +6,8 @@ import { Container, Row, Col } from "react-bootstrap"
 
 import PortfolioCard from "../components/portfolioCard"
 
+import BlogAppImg from "../images/portfolioImages/BlogApp.jpg"
+
 const PortfolioPage = () => (
   <Layout>
     <SEO title="Portfolio" />
@@ -16,7 +18,11 @@ const PortfolioPage = () => (
       </Row>
       <p>Welcome to the page... under construction </p>
       <Row className="portfolioCard-container">
-        <PortfolioCard />
+        <PortfolioCard 
+        img={BlogAppImg} 
+        title={"Ruby on Rails Blog App"} 
+        description="Basic Ruby on Rails blog application built using BDD testing methodology using Rspec. Application uses ActionCable for realtime updates on each comment." 
+        btnMessage={"Live Demo"}/>
         <PortfolioCard />
         <PortfolioCard />
         <Col xs={12} md={8} lg={12}>

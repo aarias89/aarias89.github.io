@@ -1,0 +1,16 @@
+[
+    {
+      "cardImg": "BlogApp.jpg",
+      "cardTitle": "Ruby on Rails Blog App",
+      "cardDescription": "Basic Ruby on Rails blog application built using BDD testing methodology using Rspec. Application uses ActionCable for realtime updates on each comment." ,
+      "button": {
+        "cta1": "Live Demo",
+        "cta2": "More Info",
+        "cta3": "View Source Code",
+        "url": "https://rails-chatapp.herokuapp.com"
+      }
+    }
+  ]
+
+
+  
