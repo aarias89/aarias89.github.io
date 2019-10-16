@@ -677,3 +677,7 @@ canvas {
   height: 100% !important;
   width: 100% !important;
 }
+
+.portfolioCard-container {
+  justify-content: space-around;
+}

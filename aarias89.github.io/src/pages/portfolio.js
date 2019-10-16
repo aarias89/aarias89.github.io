@@ -15,7 +15,14 @@ const PortfolioPage = () => (
         <h1>Portfolio Page</h1>
       </Row>
       <p>Welcome to the page... under construction </p>
-      <PortfolioCard />
+      <Row className="portfolioCard-container">
+        <PortfolioCard />
+        <PortfolioCard />
+        <PortfolioCard />
+        <Col xs={12} md={8} lg={12}>
+          {/* <PortfolioCard /> */}
+        </Col>
+      </Row>
       <Link to="/">Back to the homepage</Link>
     </Container>
   </Layout>
