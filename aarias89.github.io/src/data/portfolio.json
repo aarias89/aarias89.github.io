@@ -4,13 +4,56 @@
       "cardTitle": "Ruby on Rails Blog App",
       "cardDescription": "Basic Ruby on Rails blog application built using BDD testing methodology using Rspec. Application uses ActionCable for realtime updates on each comment." ,
       "button": {
-        "cta1": "Live Demo",
-        "cta2": "More Info",
-        "cta3": "View Source Code",
-        "url": "https://rails-chatapp.herokuapp.com"
+        "cta1": {
+          "copy": "Live Demo",
+          "url" : "https://rails-chatapp.herokuapp.com"
+        },
+        "cta2": {
+          "copy": "Source Code",
+          "url" : "https://github.com/aarias89/rails-app"
+        },
+        "cta3": {
+          "copy": "More Info",
+          "url" : "#"
+        }
+      }
+    },
+    {
+      "cardImg": "img-placeholder.svg",
+      "cardTitle": "JSON Obj 2",
+      "cardDescription": "Some Generic Description" ,
+      "button": {
+        "cta1": {
+          "copy": "Live Demo",
+          "url" : "https://rails-chatapp.herokuapp.com"
+        },
+        "cta2": {
+          "copy": "Source Code",
+          "url" : ""
+        },
+        "cta3": {
+          "copy": "More Info",
+          "url" : ""
+        }
+      }
+    },
+    {
+      "cardImg": "img-placeholder.svg",
+      "cardTitle": "JSON Obj 3",
+      "cardDescription": "Some Generic Description" ,
+      "button": {
+        "cta1": {
+          "copy": "Live Demo",
+          "url" : "https://rails-chatapp.herokuapp.com"
+        },
+        "cta2": {
+          "copy": "Source Code",
+          "url" : ""
+        },
+        "cta3": {
+          "copy": "More Info",
+          "url" : ""
+        }
       }
     }
   ]
-
-
-  
