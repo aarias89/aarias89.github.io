@@ -1,6 +1,5 @@
 import React, { Component } from "react"
-import { Container, Card, Button } from "react-bootstrap"
-import { Link } from "gatsby"
+import { Card, Button } from "react-bootstrap"
 
 export default class PortfolioCard extends Component {
   constructor(props) {
@@ -12,13 +11,19 @@ export default class PortfolioCard extends Component {
 
     let imgRoute = require("../images/portfolioImages/" + cardImg)
 
+    // Filter through button object and only return the CTA's that are supposed to be rendered.
     const ctas = Object.entries(this.props.project.button).filter(cta => {
       return cta[1].view === true
     })
 
     const renderButton = ctas.map(cta => {
       return (
-        <a key={cta[1].copy} target="_blank" href={cta[1].url}>
+        <a
+          key={cta[1].copy}
+          target="_blank"
+          href={cta[1].url}
+          rel="noopener noreferrer"
+        >
           <Button className="card-button" size="sm" variant="primary">
             {cta[1].copy}
           </Button>
@@ -35,11 +40,6 @@ export default class PortfolioCard extends Component {
         <Card.Body>
           <Card.Title>{cardTitle}</Card.Title>
           <Card.Text>{cardDescription}</Card.Text>
-          {/* <a target="_blank" href={button.cta1.url}>
-            <Button className="card-button" size="sm" variant="primary">
-              {button.cta1.copy}
-            </Button>
-          </a> */}
           {renderButton}
         </Card.Body>
         <br />
