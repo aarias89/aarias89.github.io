@@ -43,14 +43,14 @@
     "cardDescription": "Some Generic Description for Object 2",
     "button": {
       "cta1": {
-        "view": true,
+        "view": false,
         "copy": "Live Demo",
         "url": "https://rails-chatapp.herokuapp.com"
       },
       "cta2": {
         "view": false,
         "copy": "Source Code",
-        "url": ""
+        "url": "#"
       },
       "cta3": {
         "view": false,
@@ -74,14 +74,14 @@
     "cardDescription": "Some Generic Description for Object 3",
     "button": {
       "cta1": {
-        "view": true,
+        "view": false,
         "copy": "Live Demo",
         "url": "https://rails-chatapp.herokuapp.com"
       },
       "cta2": {
         "view": false,
         "copy": "Source Code",
-        "url": ""
+        "url": "#"
       },
       "cta3": {
         "view": false,
