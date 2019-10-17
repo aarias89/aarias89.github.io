@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 import { Modal, Button } from "react-bootstrap"
-import PDF from "react-pdf-js"
-import Resume from "../images/ResumeAriasAndres2019.pdf"
 
 class MyModal extends Component {
   constructor(props) {
@@ -18,18 +16,12 @@ class MyModal extends Component {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            Andres Resume
+            {this.props.modalTitle}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          {/* <PDF file="https://dl.dropbox.com/s/gach2termfhyn3f/ResumeAriasAndres2019.pdf?dl=0" /> */}
-
-          <PDF className="justify-content-md-center" file={Resume} />
-        </Modal.Body>
+        <Modal.Body>{this.props.bodyData}</Modal.Body>
         <Modal.Footer>
-          <Button href={Resume} download>
-            Download PDF
-          </Button>
+          {this.props.footerData}
           <Button onClick={this.props.onHide}>Close</Button>
         </Modal.Footer>
       </Modal>

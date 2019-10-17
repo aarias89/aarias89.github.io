@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import ExperienceCard from "./experienceCard"
 import { ButtonToolbar, Button } from "react-bootstrap"
 import MyModal from "./modal"
+import PDF from "react-pdf-js"
+import Resume from "../images/ResumeAriasAndres2019.pdf"
 
 class ExperienceList extends Component {
   constructor(props) {
@@ -24,13 +26,27 @@ class ExperienceList extends Component {
           >
             Show Resume
           </Button>
-          <MyModal show={this.state.addModalShow} onHide={addModalClose} />
+          <MyModal
+            modalTitle="Andres Resume"
+            bodyData={
+              <PDF className="justify-content-md-center" file={Resume} />
+            }
+            footerData={
+              <Button href={Resume} download>
+                Download PDF
+              </Button>
+            }
+            show={this.state.addModalShow}
+            onHide={addModalClose}
+          />
         </ButtonToolbar>
         <br />
       </div>
     )
   }
 }
+
+//{/* <PDF file="https://dl.dropbox.com/s/gach2termfhyn3f/ResumeAriasAndres2019.pdf?dl=0" /> */}
 
 // const ExperienceList = props => {
 //   const jobs = props.data.map(job => {
