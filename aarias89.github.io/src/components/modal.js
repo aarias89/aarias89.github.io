@@ -16,12 +16,12 @@ class MyModal extends Component {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            {this.props.modalTitle}
+            {this.props.modaltitle}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>{this.props.bodyData}</Modal.Body>
+        <Modal.Body>{this.props.bodytata}</Modal.Body>
         <Modal.Footer>
-          {this.props.footerData}
+          {this.props.footerdata}
           <Button onClick={this.props.onHide}>Close</Button>
         </Modal.Footer>
       </Modal>

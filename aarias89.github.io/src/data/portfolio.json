@@ -56,7 +56,7 @@
         "view": false,
         "copy": "More Info",
         "modalData": {
-          "techs": [],
+          "techs": [""],
           "howTo": {
             "task": {
               "name": "task name",

@@ -1,9 +1,11 @@
 import React, { Component } from "react"
 import { Card, Button } from "react-bootstrap"
+import MyModal from "./modal"
 
 export default class PortfolioCard extends Component {
   constructor(props) {
     super(props)
+    this.state = { addModalShow: false }
   }
 
   render() {
@@ -16,19 +18,40 @@ export default class PortfolioCard extends Component {
       return cta[1].view === true
     })
 
+    let addModalClose = () => this.setState({ addModalShow: false })
+
     const renderButton = ctas.map(cta => {
-      return (
-        <a
-          key={cta[1].copy}
-          target="_blank"
-          href={cta[1].url}
-          rel="noopener noreferrer"
-        >
-          <Button className="card-button" size="sm" variant="primary">
-            {cta[1].copy}
-          </Button>
-        </a>
-      )
+      const { modalData, url, copy } = cta[1]
+      // let modalInfo = modalData
+      if (modalData) {
+        return (
+          <a key={copy} target="_blank" href={url} rel="noopener noreferrer">
+            <Button
+              className="card-button"
+              size="sm"
+              variant="primary"
+              onClick={() => this.setState({ addModalShow: true })}
+            >
+              {copy}
+            </Button>
+            <MyModal
+              modaltitle={modalData.howTo.task.name}
+              bodydata={modalData.howTo.directions}
+              footerdata={modalData.techs}
+              show={this.state.addModalShow}
+              onHide={addModalClose}
+            />
+          </a>
+        )
+      } else {
+        return (
+          <a key={copy} target="_blank" href={url} rel="noopener noreferrer">
+            <Button className="card-button" size="sm" variant="primary">
+              {copy}
+            </Button>
+          </a>
+        )
+      }
     })
 
     return (

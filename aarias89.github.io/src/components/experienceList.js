@@ -26,12 +26,13 @@ class ExperienceList extends Component {
           >
             Show Resume
           </Button>
+
           <MyModal
-            modalTitle="Andres Resume"
-            bodyData={
+            modaltitle="Andres Resume"
+            bodydata={
               <PDF className="justify-content-md-center" file={Resume} />
             }
-            footerData={
+            footerdata={
               <Button href={Resume} download>
                 Download PDF
               </Button>
