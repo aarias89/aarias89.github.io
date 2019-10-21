@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import PortfolioList from "../components/portfolioList"
+import PortfolioList from "../components/Portfolio/portfolioList"
 import PortfolioData from "../data/portfolio.json"
 
 const PortfolioPage = () => (

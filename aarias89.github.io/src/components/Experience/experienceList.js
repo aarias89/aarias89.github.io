@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 import ExperienceCard from "./experienceCard"
 import { ButtonToolbar, Button } from "react-bootstrap"
-import MyModal from "./modal"
+import MyModal from "../modal"
 import PDF from "react-pdf-js"
-import Resume from "../images/ResumeAriasAndres2019.pdf"
+import Resume from "../../images/ResumeAriasAndres2019.pdf"
 
 class ExperienceList extends Component {
   constructor(props) {

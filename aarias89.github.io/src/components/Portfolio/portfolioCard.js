@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Card, Button } from "react-bootstrap"
-import MyModal from "./modal"
+import MyModal from "../modal"
 
 export default class PortfolioCard extends Component {
   constructor(props) {
@@ -11,7 +11,7 @@ export default class PortfolioCard extends Component {
   render() {
     const { cardImg, cardTitle, cardDescription } = this.props.project
 
-    let imgRoute = require("../images/portfolioImages/" + cardImg)
+    let imgRoute = require("../../images/portfolioImages/" + cardImg)
 
     // Filter through button object and only return the CTA's that are supposed to be rendered.
     const ctas = Object.entries(this.props.project.button).filter(cta => {

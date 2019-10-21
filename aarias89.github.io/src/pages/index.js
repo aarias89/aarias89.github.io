@@ -6,14 +6,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "bootstrap/dist/css/bootstrap.min.css"
 
-import About from "../components/aboutMe"
-import ExperienceList from "../components/experienceList"
+import About from "../components/About/aboutMe"
+import ExperienceList from "../components/Experience/experienceList"
 import ExperienceData from "../data/experience.json"
 import FormContainer from "../components/submitFormComponents/FormContainer"
-import Skills from "../components/skills"
+import Skills from "../components/Skills/skills"
 import { Container, Row, Col } from "react-bootstrap"
 import "../style/layout.css"
-// import { Modal, Button, ButtonToolbar } from "react-bootstrap"
 
 const IndexPage = () => (
   <Layout>

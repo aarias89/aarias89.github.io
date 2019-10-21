@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Container, Row, Col, Image } from "react-bootstrap"
-import profilepic from "../images/profilepic.png"
+import profilepic from "../../images/profilepic.png"
 
 export default class About extends Component {
   render() {
