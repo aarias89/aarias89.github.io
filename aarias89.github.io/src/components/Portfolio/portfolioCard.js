@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Card, Button } from "react-bootstrap"
 import MyModal from "../modal"
+import PortfolioModalBody from "./portfolioModalBody"
 
 export default class PortfolioCard extends Component {
   constructor(props) {
@@ -35,9 +36,9 @@ export default class PortfolioCard extends Component {
               {copy}
             </Button>
             <MyModal
-              modaltitle={modalData.howTo.task.name}
-              bodydata={modalData.howTo.directions}
-              footerdata={modalData.techs}
+              modaltitle={"Aditional Info - " + cardTitle}
+              bodydata={<PortfolioModalBody data={modalData} />}
+              footerdata=""
               show={this.state.addModalShow}
               onHide={addModalClose}
             />

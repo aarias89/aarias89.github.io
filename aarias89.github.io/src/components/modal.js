@@ -19,7 +19,7 @@ class MyModal extends Component {
             {this.props.modaltitle}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>{this.props.bodytata}</Modal.Body>
+        <Modal.Body>{this.props.bodydata}</Modal.Body>
         <Modal.Footer>
           {this.props.footerdata}
           <Button onClick={this.props.onHide}>Close</Button>
