@@ -44,6 +44,7 @@ const Layout = ({ children }) => {
             rel="stylesheet"
             href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
           />
+          <link rel="stylesheet" href="../style/layout.css" />
         </Helmet>
 
         <main>{children}</main>

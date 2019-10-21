@@ -23,6 +23,7 @@ export default class PortfolioModalBody extends Component {
               </Col>
             </Row>
             <ListGroup>{this.renderList(this.props.data.techs)}</ListGroup>
+            <br />
           </Col>
           <Col lg={6} sm={12}>
             <Row>
@@ -33,10 +34,11 @@ export default class PortfolioModalBody extends Component {
             <ListGroup>
               {this.renderList(this.props.data.howTo.task.directions)}
             </ListGroup>
+            <br />
           </Col>
         </Row>
         <br />
-        <br />
+
         <Container>
           <Row>{this.props.data.longDescription}</Row>
         </Container>
