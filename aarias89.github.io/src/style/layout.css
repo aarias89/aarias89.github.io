@@ -685,11 +685,14 @@ canvas {
   flex-wrap: wrap;
 }
 .portfolio-card {
-   width: 19rem; 
-   margin-bottom: 1em;
-
+  width: 19rem;
+  margin-bottom: 1em;
 }
 
 .card-button {
-  margin:.1em;
+  margin: 0.1em;
+}
+
+.list-group-item {
+  font-size: 0.9em;
 }

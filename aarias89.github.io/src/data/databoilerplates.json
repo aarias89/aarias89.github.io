@@ -1,0 +1,33 @@
+[
+  {
+    "cardImg": "img-placeholder.svg",
+    "cardTitle": "JSON Obj 3",
+    "cardDescription": "Some Generic Description for Object 3",
+    "button": {
+      "cta1": {
+        "view": false,
+        "copy": "Live Demo",
+        "url": "https://rails-chatapp.herokuapp.com"
+      },
+      "cta2": {
+        "view": false,
+        "copy": "Source Code",
+        "url": "#"
+      },
+      "cta3": {
+        "view": false,
+        "copy": "More Info",
+        "modalData": {
+          "techs": [],
+          "howTo": {
+            "task": {
+              "name": "task name",
+              "directions": ["step 1", "step 2", "..."]
+            }
+          },
+          "longDescription": []
+        }
+      }
+    }
+  }
+]

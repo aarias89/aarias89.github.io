@@ -22,12 +22,21 @@
             "Ruby on Rails",
             "Testing done with Rspec",
             "Built using BDD methology",
-            "Action Cable - allows realtime comments/chat updates"
+            "Action Cable - allows realtime comments/chat updates",
+            "Hosted on Heroku",
+            "Boostrap",
+            "Device - User Security/Validation"
           ],
           "howTo": {
             "task": {
-              "name": "task name",
-              "directions": ["step 1", "step 2", "..."]
+              "name": "Run Rspec",
+              "directions": [
+                "git clone https://github.com/aarias89/rails-app.git",
+                "bundle install",
+                "bundle binstubs guard",
+                "guard init",
+                "guard"
+              ]
             }
           },
           "longDescription": [
