@@ -19,10 +19,7 @@ export default class PortfolioModalBody extends Component {
           <Col lg={6} sm={12}>
             <Row>
               <Col>
-                <h3>Technologies Used:</h3>
-                <h5>
-                  <br />{" "}
-                </h5>
+                <h3>Technologies Used :</h3>
               </Col>
             </Row>
             <ListGroup>{this.renderList(this.props.data.techs)}</ListGroup>
@@ -31,8 +28,7 @@ export default class PortfolioModalBody extends Component {
           <Col lg={6} sm={12}>
             <Row>
               <Col>
-                <h3>How To Test:</h3>
-                <h5>{this.props.data.howTo.task.name}</h5>
+                <h3>{this.props.data.howTo.task.name} :</h3>
               </Col>
             </Row>
             <ListGroup>

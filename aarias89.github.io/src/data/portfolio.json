@@ -29,7 +29,7 @@
           ],
           "howTo": {
             "task": {
-              "name": "Run Rspec",
+              "name": "How to run Rspec",
               "directions": [
                 "git clone https://github.com/aarias89/rails-app.git",
                 "bundle install",
@@ -47,63 +47,46 @@
     }
   },
   {
-    "cardImg": "img-placeholder.svg",
-    "cardTitle": "JSON Obj 2",
-    "cardDescription": "Some Generic Description for Object 2",
+    "cardImg": "gatsbyjs-deploy.jpg",
+    "cardTitle": "Personal Site",
+    "cardDescription": "Personal site built using React and hosted on Github",
     "button": {
       "cta1": {
-        "view": false,
+        "view": true,
         "copy": "Live Demo",
-        "url": "https://rails-chatapp.herokuapp.com"
+        "url": "https://aarias89.github.io/"
       },
       "cta2": {
-        "view": false,
+        "view": true,
         "copy": "Source Code",
-        "url": "#"
+        "url": "https://github.com/aarias89/aarias89.github.io"
       },
       "cta3": {
-        "view": false,
+        "view": true,
         "copy": "More Info",
         "modalData": {
-          "techs": [""],
+          "techs": [
+            "React",
+            "GatsbyJS",
+            "Git",
+            "GitHub Pages",
+            "JSON",
+            "React-Bootstrap"
+          ],
           "howTo": {
             "task": {
-              "name": "task name",
-              "directions": ["step 1", "step 2", "..."]
+              "name": "Features",
+              "directions": [
+                "Major components built with scalability in mind",
+                "Individual Form Component Validation",
+                "Complete Form Validation",
+                "JSON data consumption"
+              ]
             }
           },
-          "longDescription": []
-        }
-      }
-    }
-  },
-  {
-    "cardImg": "img-placeholder.svg",
-    "cardTitle": "JSON Obj 3",
-    "cardDescription": "Some Generic Description for Object 3",
-    "button": {
-      "cta1": {
-        "view": false,
-        "copy": "Live Demo",
-        "url": "https://rails-chatapp.herokuapp.com"
-      },
-      "cta2": {
-        "view": false,
-        "copy": "Source Code",
-        "url": "#"
-      },
-      "cta3": {
-        "view": false,
-        "copy": "More Info",
-        "modalData": {
-          "techs": [],
-          "howTo": {
-            "task": {
-              "name": "task name",
-              "directions": ["step 1", "step 2", "..."]
-            }
-          },
-          "longDescription": []
+          "longDescription": [
+            "This site was built using the site generator for React, GastbyJS. The application runs a production build hosted on Github. Every section of the site was built with scalability in mind. Data rendered in each section is being pulled in from it's respective JSON file. Contact Form is made up of different, reusable, form fields each responsible for validating the type of data that an user inputs. Portfolio page renders cards displaying conditionally rendered buttons/data depending on preference set in it's respective JSON "
+          ]
         }
       }
     }
