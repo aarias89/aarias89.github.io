@@ -85,7 +85,7 @@
             }
           },
           "longDescription": [
-            "This site was built using the site generator for React, GastbyJS. The application runs a production build hosted on Github. Every section of the site was built with scalability in mind. Data rendered in each section is being pulled in from it's respective JSON file. Contact Form is made up of different, reusable, form fields each responsible for validating the type of data that an user inputs. Portfolio page renders cards displaying conditionally rendered buttons/data depending on preference set in it's respective JSON "
+            "This site was built using the site generator for React, GastbyJS.The application runs a production build hosted on Github. Every section of the site was built with scalability in mind. Data rendered in each section is being pulled in from it's respective JSON file. Contact Form is made up of different, reusable, form fields each responsible for validating the type of data that an user inputs. Portfolio page renders cards displaying conditionally rendered buttons/data depending on preference set in it's respective JSON "
           ]
         }
       }
